@@ -1,0 +1,5 @@
+.nameBox h1 {
+  font-size: calc(10px + 3vmin);
+  color: rgb(0, 225, 255);
+  margin-bottom: 10px;
+}

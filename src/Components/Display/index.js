@@ -1,11 +1,12 @@
 import { useSelector } from "react-redux";
+import "./styles.css";
 
 const Display = () => {
   const name = useSelector((state) => state.user);
 
   return (
-    <div>
-      <h1>{name.name}</h1>
+    <div className="nameBox">
+      <h1>Nome: {name.name}</h1>
     </div>
   );
 };

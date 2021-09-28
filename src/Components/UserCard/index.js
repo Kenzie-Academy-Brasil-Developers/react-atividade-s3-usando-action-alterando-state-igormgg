@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { changeName } from "../../store/modules/user/actions";
+import "./styles.css";
 
 const UserCard = () => {
   const dispatch = useDispatch();
